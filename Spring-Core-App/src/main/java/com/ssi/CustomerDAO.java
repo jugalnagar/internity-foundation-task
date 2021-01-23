@@ -1,0 +1,9 @@
+package com.ssi;
+
+public interface CustomerDAO {
+	public void saveCustomer(Customer customer);
+	public Customer searchCustomer(int code);
+	//...
+	//...
+	//...
+}
